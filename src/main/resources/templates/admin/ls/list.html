@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+      xmlns:sd="http://www.thymeleaf.org/spring-data"
+      xmlns="http://www.w3.org/1999/xhtml">
+<head th:replace="fragments/head :: head(~{::title},~{::link}, ~{::script})">
+    <title>Реестр сайтов</title>
+
+    <link rel="stylesheet" type="text/css" th:href="@{/static/css/filter.css}"/>
+
+    <script th:src="@{/static/lib/floatThead/jquery.floatThead.min.js}"></script>
+    <script th:src="@{/static/js/filter.js}"></script>
+</head>
+<body>
+<header th:replace="fragments/header :: header(ls, admin)"></header>
+
+<div class="col s12 main-container">
+    <form th:action="@{/admin/ls}" method="get" th:object="${filter}">
+        <div class="filter-area">
+            <div th:replace="fragments/filter :: filter('/admin/ls/add', '/admin/ls', 'Реестр сайтов')"></div>
+            <div th:class="${'filter-content '+ (filter.isFilterExist() ? 'filter-open' : '')}">
+                <div class="row row-eq-height">
+                    <div class="col s3">
+                        <div class="input-field select-form">
+                            <select th:field="*{active}">
+                                <option th:value="${null}">Все</option>
+                                <option th:value="1">Активирована</option>
+                                <option th:value="0">Отключена</option>
+                            </select>
+                            <label>Статус авторизации</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+    <div class="table-area">
+        <table class="bordered">
+            <thead>
+            <tr>
+                <th>Адрес сайта</th>
+                <th>Домен</th>
+                <th>Движок</th>
+                <th>Статус</th>
+                <th>Главный разработчик</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr th:class="${ldap.active} ? 'clickable' : 'clickable inactive-row' " th:each="ldap : ${page}"
+                th:onclick="'request(\'' + @{|/admin/ls/${ldap.id}|}+ '\');'">
+                <td th:text="${ldap.name}"></td>
+                <td th:text="${ldap.address}"></td>
+                <td th:text="${ldap.port}"></td>
+                <td th:text="${ldap.active} ? 'Активирована' : 'Отключена'"></td>
+                <td th:text="${ldap.name}"></td>
+            </tr>
+            </tbody>
+        </table>
+        <div class="col s6 no-padding page-info">
+            <div sd:pagination-summary="" align="center">В данном разделе находится список всех сайтов которые были разработаны нашей компанией.</div>
+        </div>
+    </div>
+    <div th:replace="fragments/pagination :: pagination"></div>
+</div>
+
+</body>
+</html>

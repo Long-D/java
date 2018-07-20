@@ -1,0 +1,1766 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="af874232-8029-4c19-be90-06dd68ed1b3a" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/communis/javawebintro/config/DevDetailsImp.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/communis/javawebintro/controller/rest/DevRestController.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/communis/javawebintro/controller/rest/LsRestController.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/communis/javawebintro/controller/view/DevController.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/communis/javawebintro/controller/view/LsController.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/communis/javawebintro/dto/DevPasswordWrapper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/communis/javawebintro/dto/DevWrapper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/communis/javawebintro/entity/Dev.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/communis/javawebintro/enums/DevAction.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/communis/javawebintro/enums/DevAuth.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/communis/javawebintro/enums/DevRole.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/communis/javawebintro/enums/DevStatus.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/communis/javawebintro/repository/DevRepository.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/migration/02_init_db.sql" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/js/admin/dev/controller.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/js/admin/dev/service.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/js/admin/ls/controller.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/js/admin/ls/service.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/dev/add.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/dev/edit.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/dev/list.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/ls/add.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/ls/edit.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/ls/list.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/fragments/card/dev.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/fragments/card/ls.html" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/communis/javawebintro/entity/LdapAuth.java" afterPath="$PROJECT_DIR$/src/main/java/org/communis/javawebintro/entity/LdapAuth.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/migration/01_init_db.sql" afterPath="$PROJECT_DIR$/src/main/resources/migration/01_init_db.sql" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin/ldap/list.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/ldap/list.html" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin/user/list.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/user/list.html" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/fragments/header.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/fragments/header.html" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.gradle/" />
+    <ignored path="$PROJECT_DIR$/build/" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="DevRole.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/communis/javawebintro/enums/DevRole.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DevRepository.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/communis/javawebintro/repository/DevRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DevRestController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/communis/javawebintro/controller/rest/DevRestController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-312">
+              <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Dev.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/communis/javawebintro/entity/Dev.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="51" column="16" lean-forward="false" selection-start-line="51" selection-start-column="16" selection-end-line="51" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DevStatus.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/communis/javawebintro/enums/DevStatus.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DevController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/communis/javawebintro/controller/view/DevController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="918">
+              <caret line="70" column="5" lean-forward="true" selection-start-line="70" selection-start-column="5" selection-end-line="70" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dev.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/fragments/card/dev.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="115" column="26" lean-forward="true" selection-start-line="106" selection-start-column="20" selection-end-line="115" selection-end-column="26" />
+              <folding>
+                <element signature="n#style#0;n#form#1;n#div#1;n#div#0;n#div#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="user.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/fragments/card/user.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="711">
+              <caret line="128" column="47" lean-forward="true" selection-start-line="128" selection-start-column="47" selection-end-line="128" selection-end-column="47" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ls.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/fragments/card/ls.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="283">
+              <caret line="32" column="74" lean-forward="true" selection-start-line="32" selection-start-column="74" selection-end-line="32" selection-end-column="74" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ldap.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/fragments/card/ldap.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2638">
+              <caret line="21" column="45" lean-forward="true" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>est</find>
+      <find>Get</find>
+      <find>Реестр</find>
+      <find>Реест</find>
+      <find>Р</find>
+      <find>Реестр ldap-серверов</find>
+      <find>BeanCreationException</find>
+      <find>ldap</find>
+      <find>user</find>
+      <find>UserRole</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="myGradleHomes">
+      <map>
+        <entry key="$PROJECT_DIR$" value="C:\Gradle\gradle-4.7-all" />
+      </map>
+    </option>
+    <option name="myGradleVersions">
+      <map>
+        <entry key="$PROJECT_DIR$" value="4.7" />
+      </map>
+    </option>
+    <option name="availableProjects">
+      <map>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
+              <option name="name" value="JavaWebIntro" />
+              <option name="path" value="$PROJECT_DIR$" />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value="JavaWebIntro" />
+                <option name="path" value="$PROJECT_DIR$" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="availableTasks">
+      <map>
+        <entry key="$PROJECT_DIR$">
+          <value>
+            <list>
+              <ExternalTaskPojo>
+                <option name="description" value="Verifies that the project could be released." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="prepare" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the sub-projects of root project 'JavaWebIntro'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="projects" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Releases this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="release" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs this project as a JVM application" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="run" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="wrapper" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="releaseCheck" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="candidateSetup" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Creates OS specific scripts to run the project as a JVM application." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="startScripts" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles a jar archive containing the main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="jar" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the configuration model of root project 'JavaWebIntro'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="model" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="devSnapshotSetup" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes main resources." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="processResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the tasks runnable from root project 'JavaWebIntro'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="tasks" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles the main distributions" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="assembleDist" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="snapshotSetup" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Initializes a new Gradle build." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="init" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="postRelease" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs the unit tests." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="test" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the dependency management declared in root project 'JavaWebIntro'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="dependencyManagement" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Repackage existing JAR and WAR archives so that they can be executed from the command line using 'java -jar'" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="bootRepackage" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles main Java source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="compileJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs all checks." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="check" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all dependencies declared in root project 'JavaWebIntro'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="dependencies" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes test resources." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="processTestResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects it depends on." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="buildNeeded" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="final" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Bundles the project as a distribution." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="distTar" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Bundles the project as a distribution." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="distZip" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="snapshot" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the components produced by root project 'JavaWebIntro'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="components" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects that depend on it." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="buildDependents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="classes" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the dependent components of components in root project 'JavaWebIntro'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="dependentComponents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all buildscript dependencies declared in root project 'JavaWebIntro'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="buildEnvironment" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles test classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="testClasses" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates Javadoc API documentation for the main source code." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="javadoc" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="candidate" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="devSnapshot" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Installs the project as a distribution as-is." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="installDist" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="bootBuildInfo" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Run the project with support for auto-detecting main class and reloading static resources" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="bootRun" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the insight into a specific dependency in root project 'JavaWebIntro'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="dependencyInsight" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles the outputs of this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="assemble" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Deletes the build directory." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="clean" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles test Java source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="compileTestJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays a help message." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="help" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="build" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="findMainClass" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="finalSetup" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the properties of root project 'JavaWebIntro'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="properties" />
+              </ExternalTaskPojo>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="modificationStamps">
+      <map>
+        <entry key="$PROJECT_DIR$" value="4593777244145" />
+        <entry key="$PROJECT_DIR$/build.gradle" value="2936938738" />
+        <entry key="$PROJECT_DIR$/gradle.properties" value="3360195473" />
+        <entry key="$PROJECT_DIR$/settings.gradle" value="2302681023" />
+      </map>
+    </option>
+    <option name="projectBuildClasspath">
+      <map>
+        <entry key="$PROJECT_DIR$">
+          <value>
+            <ExternalProjectBuildClasspathPojo>
+              <option name="modulesBuildClasspath">
+                <map>
+                  <entry key="$PROJECT_DIR$">
+                    <value>
+                      <ExternalModuleBuildClasspathPojo>
+                        <option name="entries">
+                          <list>
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.spring.gradle/propdeps-plugin/0.0.9.RELEASE/ec5000b7cc419bc7ebba5e920e1a67477969356b/propdeps-plugin-0.0.9.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-gradle-plugin/1.5.13.RELEASE/1a9bc7381de5365603377f671fe59ebad74bf246/spring-boot-gradle-plugin-1.5.13.RELEASE-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-gradle-plugin/1.5.13.RELEASE/6e8a04cdb3012d543e9128294246530ae5e7953b/spring-boot-gradle-plugin-1.5.13.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.netflix.nebula/nebula-release-plugin/6.0.2/38b6edc2aa1b195fbd12f8f74566b6dce2d83364/nebula-release-plugin-6.0.2-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.netflix.nebula/nebula-release-plugin/6.0.2/95c83eda3313a2b18636253072a4bc2e2c5b7806/nebula-release-plugin-6.0.2.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-loader-tools/1.5.13.RELEASE/21b7bcbe710d20e32257ac51d7c95315196d4e42/spring-boot-loader-tools-1.5.13.RELEASE-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-loader-tools/1.5.13.RELEASE/86f4656fd5f215bba7caba5046bbb4a475691b75/spring-boot-loader-tools-1.5.13.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.spring.gradle/dependency-management-plugin/1.0.5.RELEASE/e9f2761e13da4228793ee5fcaa983889e68c4c61/dependency-management-plugin-1.0.5.RELEASE-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.spring.gradle/dependency-management-plugin/1.0.5.RELEASE/3589987a66349bdc10b18c6c4a5463ffd084c908/dependency-management-plugin-1.0.5.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.ajoberstar/gradle-git/1.7.2/73cbcccc03ae1e8229047df075f9cdee585bfd9b/gradle-git-1.7.2-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.ajoberstar/gradle-git/1.7.2/feb1a4ff041a7752ec22eb7423802194523cac4e/gradle-git-1.7.2.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/4.3.17.RELEASE/1c9db6d980be91128319200939014868801787d2/spring-core-4.3.17.RELEASE-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/4.3.17.RELEASE/77814c99de6f8282c64a4d604024c70e238037ae/spring-core-4.3.17.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.ajoberstar/grgit/1.9.3/82990705063845af0002c2afaa2f0b45f64dbe75/grgit-1.9.3-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.ajoberstar/grgit/1.9.3/3e32a7e61984655c9850aa4bda267631e1acd5d9/grgit-1.9.3.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.zafarkhaja/java-semver/0.9.0/38d5bf2aa1204792794489a0e2c4c19548bc35c1/java-semver-0.9.0-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.zafarkhaja/java-semver/0.9.0/59a83ca73c72a5e25b3f0b1bb305230a11000329/java-semver-0.9.0.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.2/ecf26c7507d67782a3bbd148d170b31dfad001aa/commons-logging-1.2-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.2/4bfc12adfe4842bf07b657f0369c4cb522955686/commons-logging-1.2.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.jgit/org.eclipse.jgit/4.5.2.201704071617-r/ad713d18ed0fa71279b002e2c1340a35dfbefee7/org.eclipse.jgit-4.5.2.201704071617-r-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.jgit/org.eclipse.jgit/4.5.2.201704071617-r/1352ebdefb10aab661b97413f651bd6ca3766ce/org.eclipse.jgit-4.5.2.201704071617-r.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.jgit/org.eclipse.jgit.ui/4.5.2.201704071617-r/210fc5b7256929c002515c399191ea7bd3736027/org.eclipse.jgit.ui-4.5.2.201704071617-r-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.jgit/org.eclipse.jgit.ui/4.5.2.201704071617-r/2182c40a3cbaa0d13aa1270ce893dc2548d78f05/org.eclipse.jgit.ui-4.5.2.201704071617-r.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jcraft/jsch.agentproxy.jsch/0.0.9/580aea5836a0b077c285f85c4d5f80cb7070619c/jsch.agentproxy.jsch-0.0.9-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jcraft/jsch.agentproxy.jsch/0.0.9/26f5c718216f1668f674816e580aa7c92f2660ad/jsch.agentproxy.jsch-0.0.9.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jcraft/jsch.agentproxy.pageant/0.0.9/a3865d329183d51cbd6e21023d19d3eebd5df70e/jsch.agentproxy.pageant-0.0.9-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jcraft/jsch.agentproxy.pageant/0.0.9/7651361429af009ff18a6ea5c4e5d38ecff7f959/jsch.agentproxy.pageant-0.0.9.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jcraft/jsch.agentproxy.sshagent/0.0.9/19cb8705d905d218655aff43305cc8361f232fd7/jsch.agentproxy.sshagent-0.0.9-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jcraft/jsch.agentproxy.sshagent/0.0.9/2ecca436463287682d16c3fa628bd7cca426cf6f/jsch.agentproxy.sshagent-0.0.9.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jcraft/jsch.agentproxy.usocket-jna/0.0.9/2135bde834fb5fba3125c2f3aa14bcf472739c74/jsch.agentproxy.usocket-jna-0.0.9-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jcraft/jsch.agentproxy.usocket-jna/0.0.9/100522438a57b4c0d15db112fc8a08d17f48080a/jsch.agentproxy.usocket-jna-0.0.9.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jcraft/jsch.agentproxy.usocket-nc/0.0.9/bbfa3094c024cc1cffff1cef50be630d20ded605/jsch.agentproxy.usocket-nc-0.0.9-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jcraft/jsch.agentproxy.usocket-nc/0.0.9/926fd2eb5586c779b8d7827036ea8e06fe7744ba/jsch.agentproxy.usocket-nc-0.0.9.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jcraft/jsch/0.1.54/91d6069df9be9e076bdb124e82fc2a9af9547616/jsch-0.1.54-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jcraft/jsch/0.1.54/da3584329a263616e277e15462b387addd1b208d/jsch-0.1.54.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.25/962153db4a9ea71b79d047dfd1b2a0d80d8f4739/slf4j-api-1.7.25-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.25/da76ca59f6a57ee3102f8f9bd9cee742973efa8a/slf4j-api-1.7.25.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.googlecode.javaewah/JavaEWAH/0.7.9/a50d78eb630e05439461f3130b94b3bcd1ea6f03/JavaEWAH-0.7.9-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.googlecode.javaewah/JavaEWAH/0.7.9/eceaf316a8faf0e794296ebe158ae110c7d72a5a/JavaEWAH-0.7.9.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.3.6/af4d76be0c46ee26b0d9d1d4a34d244a633cac84/httpclient-4.3.6-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.3.6/4c47155e3e6c9a41a28db36680b828ced53b8af4/httpclient-4.3.6.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jcraft/jsch.agentproxy.core/0.0.9/dc8402ed7f647c7d44057189a49b5743b02a7262/jsch.agentproxy.core-0.0.9-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jcraft/jsch.agentproxy.core/0.0.9/1af3741c3a83a71e29b8aa7637979791e50e538b/jsch.agentproxy.core-0.0.9.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.java.dev.jna/jna/4.1.0/28a5d592b494fe54c120c64689087e779a7bf55b/jna-4.1.0-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.java.dev.jna/jna/4.1.0/1c12d070e602efd8021891cdd7fd18bc129372d4/jna-4.1.0.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.java.dev.jna/jna-platform/4.1.0/67d178949fe41ff82de6dbda7ef62d48f70e031c/jna-platform-4.1.0-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.java.dev.jna/jna-platform/4.1.0/23457ad1cf75c2c16763330de5565a0e67b4bc0a/jna-platform-4.1.0.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.3.3/1b0aa62a6a91e9fa00c16f0a4a2c874804ed3b1e/httpcore-4.3.3-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.3.3/f91b7a4aadc5cf486df6e4634748d7dd7a73f06d/httpcore-4.3.3.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.6/61e9f9d11fe3e12ec62f633006e99d75fd7f19c8/commons-codec-1.6-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.6/b7f0fc8f61ecadeb3695f0b9464755eee44374d4/commons-codec-1.6.jar" />
+                          </list>
+                        </option>
+                        <option name="path" value="$PROJECT_DIR$" />
+                      </ExternalModuleBuildClasspathPojo>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="name" value="JavaWebIntro" />
+              <option name="projectBuildClasspath">
+                <list>
+                  <option value="C:/Gradle/gradle-4.7-all/src/announce" />
+                  <option value="C:/Gradle/gradle-4.7-all/src/antlr" />
+                  <option value="C:/Gradle/gradle-4.7-all/src/base-services" />
+                  <option value="C:/Gradle/gradle-4.7-all/src/base-services-groovy" />
+                  <option value="C:/Gradle/gradle-4.7-all/src/build-cache" />
+                  <option value="C:/Gradle/gradle-4.7-all/src/build-cache-http" />
+                  <option value="C:/Gradle/gradle-4.7-all/src/build-comparison" />
+                  <option value="C:/Gradle/gradle-4.7-all/src/build-init" />
+                  <option value="C:/Gradle/gradle-4.7-all/src/build-option" />
+                  <option value="C:/Gradle/gradle-4.7-all/src/cli" />
+                  <option value="C:/Gradle/gradle-4.7-all/src/code-quality" />
+                  <option value="C:/Gradle/gradle-4.7-all/src/composite-builds" />
+                  <option value="C:/Gradle/gradle-4.7-all/src/core" />
+                  <option value="C:/Gradle/gradle-4.7-all/src/core-api" />
+                  <option value="C:/Gradle/gradle-4.7-all/src/dependency-management" />
+                  <option value="C:/Gradle/gradle-4.7-all/src/diagnostics" />
+                  <option value="C:/Gradle/gradle-4.7-all/src/ear" />
+                  <option value="C:/Gradle/gradle-4.7-all/src/ide" />
+                  <option value="C:/Gradle/gradle-4.7-all/src/ide-native" />
+                  <option value="C:/Gradle/gradle-4.7-all/src/ide-play" />
+                  <option value="C:/Gradle/gradle-4.7-all/src/installation-beacon" />
+                  <option value="C:/Gradle/gradle-4.7-all/src/internal-android-performance-testing" />
+                  <option value="C:/Gradle/gradle-4.7-all/src/internal-integ-testing" />
+                  <option value="C:/Gradle/gradle-4.7-all/src/internal-performance-testing" />
+                  <option value="C:/Gradle/gradle-4.7-all/src/internal-testing" />
+                  <option value="C:/Gradle/gradle-4.7-all/src/ivy" />
+                  <option value="C:/Gradle/gradle-4.7-all/src/jacoco" />
+                  <option value="C:/Gradle/gradle-4.7-all/src/javascript" />
+                  <option value="C:/Gradle/gradle-4.7-all/src/jvm-services" />
+                  <option value="C:/Gradle/gradle-4.7-all/src/language-groovy" />
+                  <option value="C:/Gradle/gradle-4.7-all/src/language-java" />
+                  <option value="C:/Gradle/gradle-4.7-all/src/language-jvm" />
+                  <option value="C:/Gradle/gradle-4.7-all/src/language-native" />
+                  <option value="C:/Gradle/gradle-4.7-all/src/language-scala" />
+                  <option value="C:/Gradle/gradle-4.7-all/src/launcher" />
+                  <option value="C:/Gradle/gradle-4.7-all/src/logging" />
+                  <option value="C:/Gradle/gradle-4.7-all/src/maven" />
+                  <option value="C:/Gradle/gradle-4.7-all/src/messaging" />
+                  <option value="C:/Gradle/gradle-4.7-all/src/model-core" />
+                  <option value="C:/Gradle/gradle-4.7-all/src/model-groovy" />
+                  <option value="C:/Gradle/gradle-4.7-all/src/native" />
+                  <option value="C:/Gradle/gradle-4.7-all/src/osgi" />
+                  <option value="C:/Gradle/gradle-4.7-all/src/persistent-cache" />
+                  <option value="C:/Gradle/gradle-4.7-all/src/platform-base" />
+                  <option value="C:/Gradle/gradle-4.7-all/src/platform-jvm" />
+                  <option value="C:/Gradle/gradle-4.7-all/src/platform-native" />
+                  <option value="C:/Gradle/gradle-4.7-all/src/platform-play" />
+                  <option value="C:/Gradle/gradle-4.7-all/src/plugin-development" />
+                  <option value="C:/Gradle/gradle-4.7-all/src/plugin-use" />
+                  <option value="C:/Gradle/gradle-4.7-all/src/plugins" />
+                  <option value="C:/Gradle/gradle-4.7-all/src/process-services" />
+                  <option value="C:/Gradle/gradle-4.7-all/src/publish" />
+                  <option value="C:/Gradle/gradle-4.7-all/src/reporting" />
+                  <option value="C:/Gradle/gradle-4.7-all/src/resources" />
+                  <option value="C:/Gradle/gradle-4.7-all/src/resources-gcs" />
+                  <option value="C:/Gradle/gradle-4.7-all/src/resources-http" />
+                  <option value="C:/Gradle/gradle-4.7-all/src/resources-s3" />
+                  <option value="C:/Gradle/gradle-4.7-all/src/resources-sftp" />
+                  <option value="C:/Gradle/gradle-4.7-all/src/scala" />
+                  <option value="C:/Gradle/gradle-4.7-all/src/signing" />
+                  <option value="C:/Gradle/gradle-4.7-all/src/test-kit" />
+                  <option value="C:/Gradle/gradle-4.7-all/src/testing-base" />
+                  <option value="C:/Gradle/gradle-4.7-all/src/testing-junit-platform" />
+                  <option value="C:/Gradle/gradle-4.7-all/src/testing-jvm" />
+                  <option value="C:/Gradle/gradle-4.7-all/src/testing-native" />
+                  <option value="C:/Gradle/gradle-4.7-all/src/tooling-api" />
+                  <option value="C:/Gradle/gradle-4.7-all/src/tooling-api-builders" />
+                  <option value="C:/Gradle/gradle-4.7-all/src/version-control" />
+                  <option value="C:/Gradle/gradle-4.7-all/src/workers" />
+                  <option value="C:/Gradle/gradle-4.7-all/src/wrapper" />
+                  <option value="C:/Gradle/gradle-4.7-all/lib/ant-1.9.9.jar" />
+                  <option value="C:/Gradle/gradle-4.7-all/lib/ant-launcher-1.9.9.jar" />
+                  <option value="C:/Gradle/gradle-4.7-all/lib/gradle-base-services-4.7.jar" />
+                  <option value="C:/Gradle/gradle-4.7-all/lib/gradle-base-services-groovy-4.7.jar" />
+                  <option value="C:/Gradle/gradle-4.7-all/lib/gradle-build-cache-4.7.jar" />
+                  <option value="C:/Gradle/gradle-4.7-all/lib/gradle-build-option-4.7.jar" />
+                  <option value="C:/Gradle/gradle-4.7-all/lib/gradle-cli-4.7.jar" />
+                  <option value="C:/Gradle/gradle-4.7-all/lib/gradle-core-4.7.jar" />
+                  <option value="C:/Gradle/gradle-4.7-all/lib/gradle-core-api-4.7.jar" />
+                  <option value="C:/Gradle/gradle-4.7-all/lib/gradle-docs-4.7.jar" />
+                  <option value="C:/Gradle/gradle-4.7-all/lib/gradle-installation-beacon-4.7.jar" />
+                  <option value="C:/Gradle/gradle-4.7-all/lib/gradle-jvm-services-4.7.jar" />
+                  <option value="C:/Gradle/gradle-4.7-all/lib/gradle-kotlin-dsl-0.16.3.jar" />
+                  <option value="C:/Gradle/gradle-4.7-all/lib/gradle-kotlin-dsl-tooling-builders-0.16.3.jar" />
+                  <option value="C:/Gradle/gradle-4.7-all/lib/gradle-kotlin-dsl-tooling-models-0.16.3.jar" />
+                  <option value="C:/Gradle/gradle-4.7-all/lib/gradle-launcher-4.7.jar" />
+                  <option value="C:/Gradle/gradle-4.7-all/lib/gradle-logging-4.7.jar" />
+                  <option value="C:/Gradle/gradle-4.7-all/lib/gradle-messaging-4.7.jar" />
+                  <option value="C:/Gradle/gradle-4.7-all/lib/gradle-model-core-4.7.jar" />
+                  <option value="C:/Gradle/gradle-4.7-all/lib/gradle-model-groovy-4.7.jar" />
+                  <option value="C:/Gradle/gradle-4.7-all/lib/gradle-native-4.7.jar" />
+                  <option value="C:/Gradle/gradle-4.7-all/lib/gradle-persistent-cache-4.7.jar" />
+                  <option value="C:/Gradle/gradle-4.7-all/lib/gradle-process-services-4.7.jar" />
+                  <option value="C:/Gradle/gradle-4.7-all/lib/gradle-resources-4.7.jar" />
+                  <option value="C:/Gradle/gradle-4.7-all/lib/gradle-runtime-api-info-4.7.jar" />
+                  <option value="C:/Gradle/gradle-4.7-all/lib/gradle-tooling-api-4.7.jar" />
+                  <option value="C:/Gradle/gradle-4.7-all/lib/gradle-wrapper-4.7.jar" />
+                  <option value="C:/Gradle/gradle-4.7-all/lib/groovy-all-2.4.12.jar" />
+                  <option value="C:/Gradle/gradle-4.7-all/lib/plugins/gradle-announce-4.7.jar" />
+                  <option value="C:/Gradle/gradle-4.7-all/lib/plugins/gradle-antlr-4.7.jar" />
+                  <option value="C:/Gradle/gradle-4.7-all/lib/plugins/gradle-build-cache-http-4.7.jar" />
+                  <option value="C:/Gradle/gradle-4.7-all/lib/plugins/gradle-build-comparison-4.7.jar" />
+                  <option value="C:/Gradle/gradle-4.7-all/lib/plugins/gradle-build-init-4.7.jar" />
+                  <option value="C:/Gradle/gradle-4.7-all/lib/plugins/gradle-code-quality-4.7.jar" />
+                  <option value="C:/Gradle/gradle-4.7-all/lib/plugins/gradle-composite-builds-4.7.jar" />
+                  <option value="C:/Gradle/gradle-4.7-all/lib/plugins/gradle-dependency-management-4.7.jar" />
+                  <option value="C:/Gradle/gradle-4.7-all/lib/plugins/gradle-diagnostics-4.7.jar" />
+                  <option value="C:/Gradle/gradle-4.7-all/lib/plugins/gradle-ear-4.7.jar" />
+                  <option value="C:/Gradle/gradle-4.7-all/lib/plugins/gradle-ide-4.7.jar" />
+                  <option value="C:/Gradle/gradle-4.7-all/lib/plugins/gradle-ide-native-4.7.jar" />
+                  <option value="C:/Gradle/gradle-4.7-all/lib/plugins/gradle-ide-play-4.7.jar" />
+                  <option value="C:/Gradle/gradle-4.7-all/lib/plugins/gradle-ivy-4.7.jar" />
+                  <option value="C:/Gradle/gradle-4.7-all/lib/plugins/gradle-jacoco-4.7.jar" />
+                  <option value="C:/Gradle/gradle-4.7-all/lib/plugins/gradle-javascript-4.7.jar" />
+                  <option value="C:/Gradle/gradle-4.7-all/lib/plugins/gradle-language-groovy-4.7.jar" />
+                  <option value="C:/Gradle/gradle-4.7-all/lib/plugins/gradle-language-java-4.7.jar" />
+                  <option value="C:/Gradle/gradle-4.7-all/lib/plugins/gradle-language-jvm-4.7.jar" />
+                  <option value="C:/Gradle/gradle-4.7-all/lib/plugins/gradle-language-native-4.7.jar" />
+                  <option value="C:/Gradle/gradle-4.7-all/lib/plugins/gradle-language-scala-4.7.jar" />
+                  <option value="C:/Gradle/gradle-4.7-all/lib/plugins/gradle-maven-4.7.jar" />
+                  <option value="C:/Gradle/gradle-4.7-all/lib/plugins/gradle-osgi-4.7.jar" />
+                  <option value="C:/Gradle/gradle-4.7-all/lib/plugins/gradle-platform-base-4.7.jar" />
+                  <option value="C:/Gradle/gradle-4.7-all/lib/plugins/gradle-platform-jvm-4.7.jar" />
+                  <option value="C:/Gradle/gradle-4.7-all/lib/plugins/gradle-platform-native-4.7.jar" />
+                  <option value="C:/Gradle/gradle-4.7-all/lib/plugins/gradle-platform-play-4.7.jar" />
+                  <option value="C:/Gradle/gradle-4.7-all/lib/plugins/gradle-plugin-development-4.7.jar" />
+                  <option value="C:/Gradle/gradle-4.7-all/lib/plugins/gradle-plugin-use-4.7.jar" />
+                  <option value="C:/Gradle/gradle-4.7-all/lib/plugins/gradle-plugins-4.7.jar" />
+                  <option value="C:/Gradle/gradle-4.7-all/lib/plugins/gradle-publish-4.7.jar" />
+                  <option value="C:/Gradle/gradle-4.7-all/lib/plugins/gradle-reporting-4.7.jar" />
+                  <option value="C:/Gradle/gradle-4.7-all/lib/plugins/gradle-resources-gcs-4.7.jar" />
+                  <option value="C:/Gradle/gradle-4.7-all/lib/plugins/gradle-resources-http-4.7.jar" />
+                  <option value="C:/Gradle/gradle-4.7-all/lib/plugins/gradle-resources-s3-4.7.jar" />
+                  <option value="C:/Gradle/gradle-4.7-all/lib/plugins/gradle-resources-sftp-4.7.jar" />
+                  <option value="C:/Gradle/gradle-4.7-all/lib/plugins/gradle-scala-4.7.jar" />
+                  <option value="C:/Gradle/gradle-4.7-all/lib/plugins/gradle-signing-4.7.jar" />
+                  <option value="C:/Gradle/gradle-4.7-all/lib/plugins/gradle-test-kit-4.7.jar" />
+                  <option value="C:/Gradle/gradle-4.7-all/lib/plugins/gradle-testing-base-4.7.jar" />
+                  <option value="C:/Gradle/gradle-4.7-all/lib/plugins/gradle-testing-junit-platform-4.7.jar" />
+                  <option value="C:/Gradle/gradle-4.7-all/lib/plugins/gradle-testing-jvm-4.7.jar" />
+                  <option value="C:/Gradle/gradle-4.7-all/lib/plugins/gradle-testing-native-4.7.jar" />
+                  <option value="C:/Gradle/gradle-4.7-all/lib/plugins/gradle-tooling-api-builders-4.7.jar" />
+                  <option value="C:/Gradle/gradle-4.7-all/lib/plugins/gradle-version-control-4.7.jar" />
+                  <option value="C:/Gradle/gradle-4.7-all/lib/plugins/gradle-workers-4.7.jar" />
+                  <option value="C:/Gradle/gradle-4.7-all/lib/plugins/ivy-2.2.0.jar" />
+                  <option value="$PROJECT_DIR$/buildSrc/src/main/java" />
+                  <option value="$PROJECT_DIR$/buildSrc/src/main/groovy" />
+                </list>
+              </option>
+            </ExternalProjectBuildClasspathPojo>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$" value="IMPORT" />
+        <entry key="$PROJECT_DIR$/../../pr/JavaWebIntro-master/JavaWebIntro-master" value="PREVIEW" />
+        <entry key="$USER_HOME$/JavaWebIntro" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/resources/templates/index.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/fragments/card/adduser.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/admin/adduser/add.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/admin/adduser/edit.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/admin/adduser/list.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/js/admin/dev/controller.js" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/js/admin/dev/service.js" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/js/admin/ls/controller.js" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/js/admin/ls/service.js" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/admin/ldap/list.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/admin/user/list.html" />
+        <option value="$PROJECT_DIR$/src/main/java/org/communis/javawebintro/config/UserDetailsImp.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/admin/ldap/add.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/admin/dev/add.html" />
+        <option value="$PROJECT_DIR$/src/main/java/org/communis/javawebintro/entity/LsAuth.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/admin/ls/add.html" />
+        <option value="$PROJECT_DIR$/src/main/java/org/communis/javawebintro/repository/DevPermissionRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/communis/javawebintro/entity/DevPermission.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/communis/javawebintro/repository/specifications/DevSpecification.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/communis/javawebintro/enums/DevAction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/communis/javawebintro/enums/DevAuth.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/communis/javawebintro/enums/DevStatus.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/communis/javawebintro/dto/DevWrapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/communis/javawebintro/dto/DevPasswordWrapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/communis/javawebintro/controller/rest/DevRestController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/communis/javawebintro/config/ldap/DevDetailsImp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/communis/javawebintro/config/DevDetailsImp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/communis/javawebintro/enums/DevRole.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/communis/javawebintro/controller/view/LsController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/communis/javawebintro/controller/rest/LsRestController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/fragments/header.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/admin/ls/list.html" />
+        <option value="$PROJECT_DIR$/src/main/java/org/communis/javawebintro/dto/LdapAuthWrapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/communis/javawebintro/entity/LdapAuth.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/communis/javawebintro/entity/LdapUserAttributes.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/communis/javawebintro/controller/view/LdapController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/migration/01_init_db.sql" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/admin/ls/edit.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/admin/dev/edit.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/admin/dev/list.html" />
+        <option value="$PROJECT_DIR$/src/main/java/org/communis/javawebintro/controller/view/DevController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/migration/02_init_db.sql" />
+        <option value="$PROJECT_DIR$/src/main/resources/migration/changelog.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/org/communis/javawebintro/entity/Dev.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/communis/javawebintro/repository/DevRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/fragments/card/dev.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/fragments/card/ls.html" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="186" />
+    <option name="y" value="18" />
+    <option name="width" value="1370" />
+    <option name="height" value="735" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="JavaWebIntro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaWebIntro" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaWebIntro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaWebIntro" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="gradle" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaWebIntro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaWebIntro" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="gradle" type="462c0819:PsiDirectoryNode" />
+              <item name="wrapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaWebIntro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaWebIntro" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaWebIntro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaWebIntro" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaWebIntro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaWebIntro" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaWebIntro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaWebIntro" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="javawebintro" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaWebIntro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaWebIntro" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="javawebintro" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaWebIntro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaWebIntro" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="javawebintro" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="ldap" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaWebIntro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaWebIntro" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="javawebintro" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaWebIntro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaWebIntro" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="javawebintro" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="rest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaWebIntro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaWebIntro" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="javawebintro" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaWebIntro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaWebIntro" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="javawebintro" type="462c0819:PsiDirectoryNode" />
+              <item name="dto" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaWebIntro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaWebIntro" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="javawebintro" type="462c0819:PsiDirectoryNode" />
+              <item name="dto" type="462c0819:PsiDirectoryNode" />
+              <item name="filters" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaWebIntro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaWebIntro" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="javawebintro" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaWebIntro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaWebIntro" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="javawebintro" type="462c0819:PsiDirectoryNode" />
+              <item name="enums" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaWebIntro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaWebIntro" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="javawebintro" type="462c0819:PsiDirectoryNode" />
+              <item name="exception" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaWebIntro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaWebIntro" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="javawebintro" type="462c0819:PsiDirectoryNode" />
+              <item name="repository" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaWebIntro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaWebIntro" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="javawebintro" type="462c0819:PsiDirectoryNode" />
+              <item name="repository" type="462c0819:PsiDirectoryNode" />
+              <item name="specifications" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaWebIntro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaWebIntro" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="javawebintro" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaWebIntro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaWebIntro" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="javawebintro" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaWebIntro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaWebIntro" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaWebIntro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaWebIntro" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="migration" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaWebIntro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaWebIntro" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaWebIntro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaWebIntro" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaWebIntro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaWebIntro" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaWebIntro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaWebIntro" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="dev" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaWebIntro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaWebIntro" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="ldap" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaWebIntro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaWebIntro" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="ls" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaWebIntro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaWebIntro" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="users" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaWebIntro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaWebIntro" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaWebIntro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaWebIntro" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaWebIntro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaWebIntro" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaWebIntro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaWebIntro" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="dev" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaWebIntro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaWebIntro" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="ldap" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaWebIntro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaWebIntro" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="ls" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaWebIntro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaWebIntro" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaWebIntro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaWebIntro" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="fragments" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaWebIntro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaWebIntro" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="fragments" type="462c0819:PsiDirectoryNode" />
+              <item name="card" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaWebIntro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaWebIntro" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SearchEverywhereHistoryKey" value="UserDetails&#9;FILE&#9;jar://C:/Users/Dmitriy/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-core/4.2.6.RELEASE/44f135f3c690957d55615b7b7743d5f3bde78fa1/spring-security-core-4.2.6.RELEASE.jar!/org/springframework/security/core/userdetails/UserDetails.class" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.communis.javawebintro.controller.rest" />
+      <recent name="org.communis.javawebintro.controller.view" />
+      <recent name="org.communis.javawebintro.config" />
+      <recent name="org.communis.javawebintro.config.ldap" />
+      <recent name="org.communis.javawebintro.dto" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Dmitriy\Desktop\Praktick\JavaWebIntro\src\main\resources\migration" />
+      <recent name="C:\Users\Dmitriy\Desktop\Praktick\JavaWebIntro\src\main\resources\templates\admin\dev" />
+      <recent name="C:\Users\Dmitriy\Desktop\Praktick\JavaWebIntro\src\main\resources\static\js\admin\ls" />
+      <recent name="C:\Users\Dmitriy\Desktop\Praktick\JavaWebIntro\src\main\resources\static\js\admin\dev" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+    </configuration>
+    <configuration name="Unnamed" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="org.communis.javawebintro.AppBoot" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="C:/Program Files/Java/jdk1.8.0_171" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="af874232-8029-4c19-be90-06dd68ed1b3a" name="Default" comment="" />
+      <created>1531259120535</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1531259120535</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31023622" sideWeight="0.49707174" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23307087" sideWeight="0.14787701" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23307087" sideWeight="0.85212296" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25841874" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913387" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/communis/javawebintro/config/ClassicAuthenticationProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/communis/javawebintro/config/FailureLoginHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/communis/javawebintro/config/SuccessLoginHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-187">
+          <caret line="26" column="13" lean-forward="false" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/communis/javawebintro/config/UserDetailsImp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-278">
+          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/communis/javawebintro/config/SecurityConfigure.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-170">
+          <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/communis/javawebintro/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="54" column="13" lean-forward="false" selection-start-line="54" selection-start-column="13" selection-end-line="54" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/communis/javawebintro/exception/AlreadyExistsException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/communis/javawebintro/enums/UserStatus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/communis/javawebintro/enums/UserAuth.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/communis/javawebintro/enums/UserAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/communis/javawebintro/dto/LdapUserAttributesWrapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-289">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/communis/javawebintro/dto/LdapGroupWrapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-57">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/communis/javawebintro/dto/LdapGroupInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/communis/javawebintro/entity/LdapAuth.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="70" column="0" lean-forward="false" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/communis/javawebintro/entity/LdapUserAttributes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/communis/javawebintro/enums/DevAuth.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/communis/javawebintro/dto/LdapAuthWrapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="27" column="32" lean-forward="true" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/communis/javawebintro/controller/view/LdapController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="38" column="63" lean-forward="true" selection-start-line="38" selection-start-column="63" selection-end-line="38" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin/user/list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/errors/badBrowser.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-193">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/communis/javawebintro/service/LdapService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="187" column="34" lean-forward="false" selection-start-line="187" selection-start-column="34" selection-end-line="187" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/fragments/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-459">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin/ls/list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-493">
+          <caret line="10" column="42" lean-forward="true" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin/ldap/edit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-102">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin/user/edit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin/ldap/list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="18" column="14" lean-forward="true" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/user/my.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin/ls/edit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="402">
+          <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin/dev/add.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="58" column="18" lean-forward="true" selection-start-line="58" selection-start-column="18" selection-end-line="58" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin/dev/edit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="15" column="43" lean-forward="false" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin/dev/list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="61" column="32" lean-forward="false" selection-start-line="61" selection-start-column="32" selection-end-line="61" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/admin/dev/controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/admin/dev/service.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/communis/javawebintro/enums/UserRole.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/communis/javawebintro/controller/view/LsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/migration/01_init_db.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="62" column="52" lean-forward="true" selection-start-line="62" selection-start-column="52" selection-end-line="62" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/migration/02_init_db.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/migration/changelog.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="67" lean-forward="false" selection-start-line="10" selection-start-column="67" selection-end-line="10" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/communis/javawebintro/dto/DevWrapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1077">
+          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/communis/javawebintro/enums/DevAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/communis/javawebintro/enums/DevStatus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/communis/javawebintro/enums/DevRole.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/communis/javawebintro/controller/rest/DevRestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-312">
+          <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/communis/javawebintro/controller/view/DevController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="70" column="5" lean-forward="true" selection-start-line="70" selection-start-column="5" selection-end-line="70" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/communis/javawebintro/entity/Dev.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="51" column="16" lean-forward="false" selection-start-line="51" selection-start-column="16" selection-end-line="51" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/communis/javawebintro/repository/DevRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/fragments/card/user.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="711">
+          <caret line="128" column="47" lean-forward="true" selection-start-line="128" selection-start-column="47" selection-end-line="128" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/fragments/card/ldap.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2638">
+          <caret line="21" column="45" lean-forward="true" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/fragments/card/dev.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="115" column="26" lean-forward="true" selection-start-line="106" selection-start-column="20" selection-end-line="115" selection-end-column="26" />
+          <folding>
+            <element signature="n#style#0;n#form#1;n#div#1;n#div#0;n#div#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/fragments/card/ls.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="32" column="74" lean-forward="true" selection-start-line="32" selection-start-column="74" selection-end-line="32" selection-end-column="74" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>9.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

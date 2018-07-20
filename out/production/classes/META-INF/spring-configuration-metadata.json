@@ -1,0 +1,17 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "org.communis.javawebintro.config.AppProperties",
+      "name": "JavaWebIntro",
+      "type": "org.communis.javawebintro.config.AppProperties"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "org.communis.javawebintro.config.AppProperties",
+      "name": "JavaWebIntro.timezone",
+      "type": "java.lang.String"
+    }
+  ]
+}

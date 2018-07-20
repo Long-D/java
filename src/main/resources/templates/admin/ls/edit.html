@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+      xmlns="http://www.w3.org/1999/xhtml">
+<head th:replace="fragments/head :: head(~{::title},~{::link}, ~{::script})">
+    <title>Изменение данных о сайте</title>
+
+    <link rel="stylesheet" type="text/css" th:href="@{/static/css/form.css}"/>
+
+    <script th:src="@{/static/js/admin/ls/ls-service.js}"></script>
+    <script th:src="@{/static/js/admin/ls/ls-controller.js}"></script>
+</head>
+<body>
+<header th:replace="fragments/header :: header(ls, admin)"></header>
+
+<div class="form-body big-form">
+    <nav class="breadcrumb-nav">
+        <div class="nav-wrapper">
+            <div class="col s12">
+                <a th:href="@{/admin/ls}" class="breadcrumb">Реестр сайтов</a>
+                <a th:href="@{'/admin/ls/' + ${ldap.id}}" th:text="'№' + ${ldap.id}" class="breadcrumb"></a>
+            </div>
+        </div>
+    </nav>
+    <form id="ldap-form" class="form-horizontal" method="PATCH" th:action="@{/admin/ls}">
+        <div th:replace="fragments/card/ls :: ldapFields"></div>
+    </form>
+</div>
+
+</body>
+</html>

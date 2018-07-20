@@ -8,17 +8,17 @@ import java.util.Date;
 @Data
 @Entity
 @Table(name = "ldap_auth")
-public class LdapAuth 
-{  
+public class LdapAuth
+{
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column
     private Long id;
-    
+
     @Column(name = "date_open")
     @Temporal(TemporalType.TIMESTAMP)
     private Date dateOpen;
-    
+
     @Column
     private String address;
 
@@ -33,7 +33,7 @@ public class LdapAuth
 
     @Column(name = "users_directory")
     private String usersDirectory;
-    
+
     @Column(name = "active")
     private Boolean active;
 
