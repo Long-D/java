@@ -28,11 +28,14 @@
                                th:field="${ldap.usersDirectory}"/>
                         <label for="users-directory">Движок</label>
                 </div>
-                    <div class="input-field" th:hidden="${action == 'my/'}">
-                        <select id="role" name="role">
-                            <option th:value="${null}">Не выбрано</option>
+                    <div class="input-field">
+                        <select id="user" th:field="${ldap.userAttributes}" name="userAttributes">
+                            <option th:value="${null}">Внутренний</option>
+                            <option th:each="r : ${user}"
+                                    th:value="${r.id}"
+                                    th:text="${r.name}"></option>
                         </select>
-                        <label for="role">Главный разработчик</label>
+                        <label for="user">Главный Разработчик</label>
                     </div>
                 </div>
             </fieldset>

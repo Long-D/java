@@ -181,15 +181,16 @@
     </div>
 
     <div class="buttons-area">
-        <button onclick="LdapController.deactivate()"
+        <button onclick="${ldap.active == false}"
                 th:if="${ldap.active == true}"
                 type="button" class="waves-effect waves-light btn red">Отключить
         </button>
-        <button onclick="LdapController.activate()"
+        <button onclick="LdapRestController.activate()"
                 th:if="${ldap.active != true}"
                 type="button" class="waves-effect waves-light btn green">Активировать
         </button>
         <button type="submit" class="waves-effect waves-light btn">Принять</button>
+        <a class="modal-action modal-close waves-effect waves-light btn-flat btn-cancel"th:href="@{/admin/ldap}">Отмена</a>
     </div>
     <div th:replace="fragments/error :: errorModalFragment"></div>
 </div>

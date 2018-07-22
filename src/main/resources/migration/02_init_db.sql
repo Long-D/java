@@ -52,8 +52,8 @@ CREATE TABLE dev
   FOREIGN KEY (id_ldap) REFERENCES ldap_auth (id)
 );
 
-INSERT INTO dev (login, surname, name, date_create, password, mail, status, role)
-VALUES('root','Администратор', 'Администратор', CURRENT_TIMESTAMP,
+INSERT INTO users (login, surname, name, date_create, password, mail, status, role)
+VALUES('root2','Администратор2', 'Администратор2', CURRENT_TIMESTAMP,
        '$2a$10$LijUmixpYL0i9rRvwXrnX.heUijboQzE3PsoCrxuJANIDVX28FNjS',
        'admin@email', 'ACTIVE', 'ROLE_ADMIN');
 

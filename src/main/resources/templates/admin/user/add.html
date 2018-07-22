@@ -23,7 +23,7 @@
             </div>
         </div>
     </nav>
-    <form id="user-add-form" class="form-horizontal row" method="POST" th:action="${url}">
+    <form id="user-add-form" class="form-horizontal row" method="POST" th:action="@{/admin/users}">
         <input type="hidden" name="id" th:field="${user.id}"/>
         <fieldset>
             <legend>Данные пользователя</legend>
@@ -87,7 +87,12 @@
                 </div>
             </div>
             <div class="buttons-area col s12">
-                <button type="button" class="waves-effect waves-light btn" onclick="UserController.addUserEvent()">Добавить</button>
+                <div class="modal-footer">
+                    <a class="modal-action modal-close waves-effect waves-light btn-flat btn-cancel"th:href="@{/admin/users}">Отмена</a>
+                    <a id="confirm-btn" class="modal-action modal-close waves-effect waves-light btn-flat"
+                       onclick="UserController.addPage()">Принять</a>
+                </div>
+                <button type="submit" class="waves-effect waves-light btn">Добавить</button>
             </div>
             <div class="col s12">
                 <div th:replace="fragments/error :: errorFragment"></div>
@@ -104,11 +109,7 @@
             <label for="ldap-list">LDAP-сервер</label>
         </div>
     </div>
-    <div class="modal-footer">
-        <a class="modal-action modal-close waves-effect waves-light btn-flat btn-cancel">Отмена</a>
-        <a id="confirm-btn" class="modal-action modal-close waves-effect waves-light btn-flat"
-           onclick="UserController.addUser()">Принять</a>
-    </div>
+
 </div>
 
 <div th:replace="fragments/error :: errorModalFragment"></div>
